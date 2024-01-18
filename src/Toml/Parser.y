@@ -22,7 +22,7 @@ module Toml.Parser (
   ) where
 
 import Data.List.NonEmpty (NonEmpty)
-import Data.List.NonEmpty qualified as NonEmpty
+import qualified Data.List.NonEmpty as NonEmpty
 
 import Toml.Lexer (Context(..), Token(..))
 import Toml.Located (Located(Located, locThing))

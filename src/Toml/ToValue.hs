@@ -31,13 +31,13 @@ module Toml.ToValue (
 import Data.Foldable (toList)
 import Data.Int (Int8, Int16, Int32, Int64)
 import Data.List.NonEmpty (NonEmpty)
-import Data.List.NonEmpty qualified as NonEmpty
+import qualified Data.List.NonEmpty as NonEmpty
 import Data.Map (Map)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Data.Ratio (Ratio)
 import Data.Sequence (Seq)
-import Data.Text qualified
-import Data.Text.Lazy qualified
+import qualified Data.Text
+import qualified Data.Text.Lazy
 import Data.Time (Day, TimeOfDay, LocalTime, ZonedTime)
 import Data.Word (Word8, Word16, Word32, Word64)
 import Numeric.Natural (Natural)

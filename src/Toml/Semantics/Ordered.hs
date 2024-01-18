@@ -38,7 +38,7 @@ module Toml.Semantics.Ordered (
 import Data.Foldable (foldl', toList)
 import Data.List (sortOn)
 import Data.Map (Map)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Toml.Located (Located(locThing))
 import Toml.Parser.Types (Expr(..), Key, Val(ValTable, ValArray))
 

@@ -36,7 +36,7 @@ import Control.Monad (MonadPlus)
 import Control.Monad.Trans.Class (lift)
 import Control.Monad.Trans.State.Strict (StateT(..), get, put)
 import Data.List (intercalate)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Toml.FromValue.Matcher (warning, Matcher, inKey)
 import Toml.Pretty (prettySimpleKey)
 import Toml.Value (Table, Value)

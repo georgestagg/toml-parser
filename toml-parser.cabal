@@ -35,7 +35,6 @@ common extensions
         FlexibleContexts
         FlexibleInstances
         GeneralizedNewtypeDeriving
-        ImportQualifiedPost
         LambdaCase
         ScopedTypeVariables
         TypeOperators
@@ -75,9 +74,6 @@ library
         text            >= 0.2 && < 3,
         time            ^>= {1.9, 1.10, 1.11, 1.12},
         transformers    ^>= {0.5, 0.6},
-    build-tool-depends:
-        alex:alex       >= 3.2,
-        happy:happy     >= 1.19,
 
 test-suite unittests
     import:             extensions

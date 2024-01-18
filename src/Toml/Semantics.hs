@@ -16,9 +16,9 @@ module Toml.Semantics (SemanticError(..), SemanticErrorKind(..), semantics) wher
 
 import Control.Monad (foldM)
 import Data.List.NonEmpty (NonEmpty((:|)))
-import Data.List.NonEmpty qualified as NonEmpty
+import qualified Data.List.NonEmpty as NonEmpty
 import Data.Map (Map)
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import Toml.Located (locThing, Located)
 import Toml.Parser.Types (SectionKind(..), Key, Val(..), Expr(..))
 import Toml.Value (Table, Value(..))

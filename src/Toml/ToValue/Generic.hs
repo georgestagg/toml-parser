@@ -14,7 +14,7 @@ module Toml.ToValue.Generic (
     genericToTable,
     ) where
 
-import Data.Map qualified as Map
+import qualified Data.Map as Map
 import GHC.Generics
 import Toml.Value (Table)
 import Toml.ToValue (ToValue(..))

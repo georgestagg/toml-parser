@@ -43,8 +43,8 @@ import Data.Char (ord, isAsciiLower, isAsciiUpper, isDigit, isPrint)
 import Data.Foldable (fold)
 import Data.List (partition, sortOn)
 import Data.List.NonEmpty (NonEmpty)
-import Data.List.NonEmpty qualified as NonEmpty
-import Data.Map qualified as Map
+import qualified Data.List.NonEmpty as NonEmpty
+import qualified Data.Map as Map
 import Data.String (fromString)
 import Data.Time (ZonedTime(zonedTimeZone), TimeZone (timeZoneMinutes))
 import Data.Time.Format (formatTime, defaultTimeLocale)
